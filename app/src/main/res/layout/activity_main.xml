@@ -31,7 +31,7 @@
         android:padding="10dp"/>
 
     <TextView
-        android:text="0"
+        android:id="@+id/textViewName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="36sp"
@@ -39,6 +39,12 @@
         android:background="#A5FFA7"
         android:gravity="center"
         android:padding="30dp"/>
+
+    <Button
+        android:text="Point"
+        android:onClick="pointButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
 </RelativeLayout>
