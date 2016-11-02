@@ -36,7 +36,7 @@
         android:padding="10dp"/>
 
     <TextView
-        android:id="@+id/textViewName"
+        android:id="@+id/points"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="36sp"
@@ -78,7 +78,7 @@
             android:padding="10dp"/>
 
         <TextView
-            android:id="@+id/textViewName"
+            android:id="@+id/goals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="36sp"
@@ -89,7 +89,7 @@
 
         <Button
             android:text="Point for Team Android"
-            android:onClick="pointButton"
+            android:onClick="pointButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

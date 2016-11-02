@@ -8,15 +8,23 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity{
     private TextView points;
-    public TextView viewVar;
-    double a;
+    private TextView goals;
+
+
+    private double a = 0;
+    private double b = 0;
+
 
 
 
     public void pointButton(View view) {
-        points.setText("0");
-        viewVar.setText( String.valueOf(a) );
-        viewVar.setText(""+a);
+        a++;
+        points.setText(String.valueOf(a));
+    }
+
+    public void pointButton2(View view) {
+        b++;
+        goals.setText(String.valueOf(b));
     }
 
         @Override
@@ -24,7 +32,11 @@ public class MainActivity extends AppCompatActivity{
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
 
-            points = (TextView) findViewById(R.id.textViewName);
+            points = (TextView) findViewById(R.id.points);
+            points.setText(String.valueOf(a));
+
+            goals = (TextView) findViewById(R.id.goals);
+            goals.setText(String.valueOf(b));
 
         }
 }
