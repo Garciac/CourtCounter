@@ -8,9 +8,15 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity{
     private TextView points;
+    public TextView viewVar;
+    double a;
+
+
 
     public void pointButton(View view) {
         points.setText("0");
+        viewVar.setText( String.valueOf(a) );
+        viewVar.setText(""+a);
     }
 
         @Override
