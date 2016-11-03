@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:textSize="36sp"
         android:textColor="@android:color/black"
-        android:background="#A5FFA7"
+        android:background="#db4a4a"
         android:gravity="center"
         android:padding="30dp"/>
 
@@ -50,6 +50,7 @@
         android:onClick="pointButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
 </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -92,8 +93,12 @@
             android:onClick="pointButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-
     </LinearLayout>
-
 </LinearLayout>
+    <Button
+        android:layout_marginTop="375dp"
+        android:text="Reset Button"
+        android:onClick="pointButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
