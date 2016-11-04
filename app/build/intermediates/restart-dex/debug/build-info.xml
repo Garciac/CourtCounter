@@ -4,7 +4,7 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="1783164501601"
+    timestamp="16409467985866"
     token="-7690299957968482113" >
 
     <task
@@ -24,12 +24,29 @@
         location="C:\Users\Student\AndroidStudioProjects\CourtCounter\app\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="1576259408898" >
+    <build
+        timestamp="15814944253398"
+        verifier="FIELD_REMOVED" >
         <artifact
-            location="C:\Users\Student\AndroidStudioProjects\CourtCounter\app\build\outputs\apk\app-debug.apk"
-            type="MAIN" />
+            location="C:\Users\Student\AndroidStudioProjects\CourtCounter\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\Student\AndroidStudioProjects\CourtCounter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
     </build>
-    <build timestamp="1783164501601" >
+    <build timestamp="16065448082230" >
+        <artifact
+            location="C:\Users\Student\AndroidStudioProjects\CourtCounter\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="16301252189810"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Student\AndroidStudioProjects\CourtCounter\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="16409467985866" >
         <artifact
             location="C:\Users\Student\AndroidStudioProjects\CourtCounter\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
