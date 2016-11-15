@@ -46,8 +46,14 @@
         android:padding="30dp"/>
 
     <Button
-        android:text="Point for Team Apple"
-        android:onClick="pointButton"
+        android:text="+1"
+        android:onClick="pointButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="-1"
+        android:onClick="pointButton3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -89,16 +95,22 @@
             android:padding="30dp"/>
 
         <Button
-            android:text="Point for Team Android"
+            android:text="+1"
             android:onClick="pointButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="-1"
+            android:onClick="pointButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
 </LinearLayout>
     <Button
-        android:layout_marginTop="375dp"
+        android:layout_marginTop="390dp"
         android:text="Reset Button"
-        android:onClick="pointButton2"
+        android:onClick="gameOverAlert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </RelativeLayout>
